@@ -18,7 +18,6 @@ app.get('/markers', async (req, res) => {
     res.json(markers);
   } catch (error) {
     console.error(error);
-    res.status(500).json({ error: 'Internal Server Error' });
   }
 });
 
