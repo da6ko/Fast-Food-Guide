@@ -1,6 +1,6 @@
 # Fast Food Ratings Map
 
-This project provides a web map to display fast-food ratings based on user feedback. It includes a front-end component (HTML, JavaScript with Mapbox) and a back-end component (Node.js with Express, MongoDB for storage). The reviews can be created using the [fast food rating app](https://github.com/da6ko/Fast-Food-Guide-Client).
+This project provides a web map to display fast-food ratings based on user feedback. It includes a front-end component (HTML, JavaScript with Mapbox) and a back-end component (Node.js with Express, MongoDB for storage). The reviews can be created using the [feedback form app](https://github.com/da6ko/Fast-Food-Guide-Client).
 
 ## Getting Started
 
