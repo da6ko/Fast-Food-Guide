@@ -9,7 +9,7 @@ const PORT = 8080;
 app.use(cors());
 app.use(bodyParser.json());
 
-const MONGO_URI = 'YOUR_MONGODB_URI/DATABASE_NAME';
+const MONGO_URI = 'YOUR_DATABASE_URI/DATABASE_NAME';
 mongoose.connect(MONGO_URI, { useNewUrlParser: true, useUnifiedTopology: true });
 
 const feedbackSchema = new mongoose.Schema({

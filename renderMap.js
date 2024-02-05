@@ -1,4 +1,4 @@
-mapboxgl.accessToken = 'YOUR_MAPBOX_TOKEN';
+mapboxgl.accessToken = 'YOUR_MAPBOXGL_TOKEN';
 const map = new mapboxgl.Map({
   container: 'map',
   center: [25.238569, 42.766279],
