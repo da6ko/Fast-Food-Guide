@@ -33,6 +33,19 @@ The server will be running at http://localhost:8080.
 
 The web map displays fast-food ratings as markers on the map. Ratings are fetched from the backend API (/api/get-feedback) and displayed on the map. Clicking on a marker reveals additional information about the fast-food place.
 
+## Technologies Used
+Frontend:
+
+- HTML, JavaScript
+- Mapbox - Mapbox GL JS for interactive maps
+
+Backend:
+
+- Node.js - JavaScript runtime
+- Express.js - Web application framework for Node.js
+- MongoDB - NoSQL database for storing feedback data
+- Mongoose - MongoDB object modeling for Node.js
+
 ## Backend API
 
 - GET /api/get-feedback: Fetches all feedback data from the MongoDB database.
